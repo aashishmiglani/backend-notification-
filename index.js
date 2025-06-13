@@ -5,10 +5,6 @@ import contactRoutes from './routes/contactRoutes.js';
 import notificationsRouter from './routes/notificationRoutes.js';
 import sendMessageRouter from './routes/sendMessage.js';
 
-dotenv.config();
-
-
-dotenv.config();
 
 const app = express();
 app.use(cors());
